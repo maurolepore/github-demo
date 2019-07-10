@@ -16,13 +16,10 @@ Warm up
 
 To get a feel of what the experience will be you might watch [this video](https://resources.rstudio.com/rstudio-essentials/rstudioessentialsmanagingpart2-2)  
 
-### [What is GitHub](https://youtu.be/w3jLJU7DT5E)
-
-### [Hello world](https://guides.github.com/activities/hello-world/)
-
-### [GitHub flow](https://guides.github.com/introduction/flow/)
-
 ### More resources
+* [What is GitHub](https://youtu.be/w3jLJU7DT5E)
+* [Hello world](https://guides.github.com/activities/hello-world/)
+* [GitHub flow](https://guides.github.com/introduction/flow/)
 * [Guides](https://guides.github.com/)
 * [Help](https://help.github.com/)
 * [Using Git and GitHub from RStudio](https://resources.rstudio.com/rstudio-essentials/rstudioessentialsmanagingpart2-2)
