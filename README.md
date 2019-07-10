@@ -2,10 +2,6 @@
 
 Demo Git, GitHub and RStudio
 
-Meet Mauro at https://appear.in/fgeo
-
----
-
 ### Setup
 
 We'll be working with Git + GitHub + RStudio. This truly requires your attention before our meeting. I want to show you how to use Git/GitHub in your life as an R-using data analyst, which means we can't afford to get bogged down in a hot mess of Git installation issues. Let's try to work through them beforehand.
