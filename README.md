@@ -10,7 +10,7 @@ We'll be working with Git + GitHub + RStudio. This truly requires your attention
 
 Why Git/GitHub
 
-If you wonder why Git/GitHub are useful, you might want to read Excuse me, do you have a moment to talk about version control?  (https://peerj.com/preprints/3159/)
+If you wonder why Git/GitHub are useful, you might want to read [Excuse me, do you have a moment to talk about version control?](https://peerj.com/preprints/3159/)
 
 Warm up
 
