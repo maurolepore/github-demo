@@ -8,11 +8,11 @@ We'll be working with Git + GitHub + RStudio. This truly requires your attention
 
 [Do what's listed here](https://happygitwithr.com/workshops.html#pre-workshop-set-up)
 
-Why Git/GitHub
+__Why Git/GitHub?__
 
 If you wonder why Git/GitHub are useful, you might want to read [Excuse me, do you have a moment to talk about version control?](https://peerj.com/preprints/3159/)
 
-Warm up
+__Warm up__
 
 To get a feel of what the experience will be you might watch [this video](https://resources.rstudio.com/rstudio-essentials/rstudioessentialsmanagingpart2-2)  
 
