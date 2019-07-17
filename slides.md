@@ -28,16 +28,28 @@ https://jennybc.github.io/wtf-2019-rsc/
 ## Outline
 
 1. [Why Git / GitHub?](https://peerj.com/preprints/3159/)
-1. [Practice the GitHub flow from GitHub] (FIXME add link to issues).
+
+1. GitHub flow from GitHub:
+    * [Contributor issues](https://github.com/maurolepore/github-demo/issues?q=is%3Aopen+is%3Aissue+label%3Acontributor+sort%3Acreated-asc+label%3Aberlin+label%3Agithub-flow_via-github).
+    * [Maintainer issues](https://github.com/maurolepore/github-demo/issues?q=is%3Aopen+is%3Aissue+sort%3Acreated-asc+label%3Aberlin+label%3Agithub-flow_via-github+label%3Amaintainer).
+    
 1. Recap: [Understanding the GitHub flow](https://guides.github.com/introduction/flow/).
-1. [Practice the GitHub flow from RStudio] (FIXME add link to issues).
+
+1. GitHub flow via RStudio
+    * [Fork and clone](https://happygitwithr.com/fork-and-clone.html).
+    * [Get upstream changes for a fork](https://happygitwithr.com/upstream-changes.html)
+
 1. Questions / Discussion (e.g. [Git clients](https://github.com/2DegreesInvesting/resources/issues/5)).
 
 Optional readings: 
 
 * [Why Git**Hub** flow -- not Git flow?](https://githubflow.github.io/)
 
-## Why Git/GitHub? | (Back to [Outline])
+
+
+## Why Git/GitHub?
+
+(Back to [Outline])
 
 <div class="columns-2">
 <img src="https://i.imgur.com/MBv5IJQ.jpg" align="center" width=325/>
@@ -49,146 +61,86 @@ Optional readings:
 
 
 
+# What is a commit?
 
-
-
-
-
-# Motivación
-
-### Arreglar URLs en README.Rmd
-
-[Tiquete modelo](https://github.com/forestgeo/fgeo.plot/issues/57)
-
-
-
-## Camino corto (en GitHub)
-
-### __Bifurcar un repositorio__  
-### `upstream (ell@s) ---> origin (yo)`  
-
-### __Trabajar en un tiquete__  
-
-### __Solicitar fusión__  
-### `upstream (ell@s) <--- origin (yo)`  
-
---
-
-[Demostrar con usuario fgeocom](https://github.com/forestgeo/fgeo.plot/issues/57)
-
-
-
-## Quieres practicar?
-
-### [Tiquetes abiertos](https://github.com/search?utf8=%E2%9C%93&q=org%3Aforestgeo+is%3Aopen+%22Add+full+URLs+to+the+website%22&type=Issues)
-
-<img src="https://i.imgur.com/XsYdXmI.png" align="center" width=760/>
-
-
-
-## Que es un "commit"?
+## What is a commit?
 
 <img src="https://i.imgur.com/fmrhQOQ.png" align="center" width=760/>
 
-## Que es un "commit"?
+## What is a commit?
 
 <img src="https://i.imgur.com/zizuprp.png" align="center" width=760/>
 
-## Que es un "commit"?
+## What is a commit?
 
 <img src="https://i.imgur.com/5MiM5RC.png" align="center" width=760/>
 
-## Que es un "commit"?
+## What is a commit?
 
 <img src="https://i.imgur.com/m230nzj.png" align="center" width=760/>
 
-## Que es un "commit"?
+## What is a commit?
 
 <img src="https://i.imgur.com/ZKksnVi.png" align="center" width=760/>
 
-## Que es un "commit"?
+## What is a commit?
 
 <img src="https://i.imgur.com/PAgI3mX.png" align="center" width=760/>
 
-## Que es un "commit"?
+## What is a commit?
 
 <img src="https://i.imgur.com/1nOkjOu.png" align="center" width=760/>
 
-## Que es un "commit"?
+## What is a commit?
 
 <img src="https://i.imgur.com/AoxcNpK.png" align="center" width=760/>
 
-## Que es un "commit"?
+## What is a commit?
 
 <img src="https://i.imgur.com/Gcv7fZU.png" align="center" width=760/>
 
-## Que es un "commit"?
+## What is a commit?
 
 <img src="https://i.imgur.com/HS2tUli.png" align="center" width=760/>
 
-## Que es un "commit"?
+## What is a commit?
 
 <img src="https://i.imgur.com/OPuzdBA.png" align="center" width=760/>
 
-
-
-## Camino Largo
-
-<img src="https://i.imgur.com/02ANh0I.png" align="center" width=760/>
-
---
-
-### [Demostrar](https://github.com/forestgeo/fgeo.plot/)
-
-
-
-## Ya podes contribuir!
-
-<img src="https://i.imgur.com/zhm2sgW.jpg" align="center" width=660/>
-
-### __Preguntas__
-
-
-
-# Apéndice
-
-
-
-# Instalación
+# Installation
 
 ### Ver [Pre-workshop set-up](https://happygitwithr.com/workshops.html#pre-workshop-set-up) (Ingles)
 
 
 
-# Configuraciones globales
+# Git configuration
 
-## 
+In R
+
+```R
+usethis::edit_git_config()
+```
+
+In the terminal
 
 ```bash
-# Ver la lista de configuraciones globales
 git config --global -l
 
-# Definir mi email y usuario
 git config --global user.email "maurolepore@gmail.com"
 git config --global user.name "maurolepore"
-```
 
-Configuraciones útiles
-
-```
-# Elegir un editor de texto amigable
 core.editor=notepad
-# Permite empujar cualquier rama directamente con `git push`
 push.default=current
-# Reduce las chances de crear conflictos
 pull.ff=only
 ```
 
+[Cache credentials](https://happygitwithr.com/credential-caching.html#credential-caching)
 
 
-# Operaciones comunes
 
-## Crear/checkear/sincronizar una rama
+# RStudio & terminal
+
+## 
 
 <img src="https://i.imgur.com/spQyR4r.png" align="center" width=760/>
 
@@ -196,14 +148,14 @@ pull.ff=only
 git checkout -b 57_add-full-url
 
 git push -u origin 57_add-full-url
-# Mejor aún:
+# Or
 git config --global push.default "current"
 git push
 ```
 
 
 
-## Hacer "commit"
+## 
 
 <img src="https://i.imgur.com/lXTXDTB.png" align="center" width=760/>
 
@@ -214,7 +166,7 @@ git commit -m "Add full URLs (closes #57)"
 
 
 
-## Editar el mensaje del ultimo "commit"
+## 
 
 <img src="https://i.imgur.com/FLT3de1.png" align="center" width=760/>
 
@@ -224,7 +176,7 @@ git commit --amend -m "Agregar URLs completos (closes #57)"
 
 
 
-## Descartar cambios en escena
+## 
 
 <img src="https://i.imgur.com/b2Cvwmt.png" align="center" width=760/>
 
@@ -234,7 +186,7 @@ git reset --hard
 
 
 
-## Cambiar de rama
+## 
 
 <img src="https://i.imgur.com/5Xs2YEy.png" align="center" width=760/>
 
@@ -244,7 +196,7 @@ git checkout master
 
 
 
-## Agregar el remoto "upstream"
+## 
 
 <img src="https://i.imgur.com/3fW3rwe.png" align="center" width=760/>
 
@@ -255,9 +207,9 @@ git remote add upstream git@github.com:maurolepore/fgeo.plot.git
 
 
 
-# Solo en la terminal
+# Terminal
 
-## Actualizar contra el repositorio original
+## 
 
 ```bash
 git fetch upstream
@@ -265,68 +217,66 @@ git checkout master
 git rebase upstream/master
 ```
 
-Lo que yo realmente hago esta explicado en <https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow>
+[Alternative](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 
 
 
-## Deshacer "commits"; guardar cambios
+## 
 
 ```bash
-# ~1 deshace ultimo "commit"
-# ~2 deshace ultimos 2 "commits"
-# ~n deshace ultimos n "commits"
+# reset ~1 commit
+# reset ~2 commits
+# reset ~n commits
 git reset HEAD~1
 ```
 
 
 
-## Contrarrestar un "commit"
+## 
+
 ```bash
-# ~1 contrarresta el ultimo "commit"
-# --no-edit escribe un mensaje automatico
+# ~1 revert ~1 commit
+# --no-edit for auto message
 git revert HEAD~1 --no-edit
 
-# Contrarresta el "commit" con SHA a867f483
+# Revert commit with SHA a867f483
 git revert a867f483 --no-edit
 ```
 
 
 
-## Elegir un commit especifico
+## 
 
 ```bash
-# Elegir el commit 63da5bb3
+# Cherry pick commit 63da5bb3
 git cherry-pick 63da5bb3
 ```
 
 
 
-## Eliminar una rama
+## 
 
 ```bash
-# Localmente
-git branch -d nombre-de-la-rama
-# Localmente, forzado
-git branch -D nombre-de-la-rama
+# Local
+git branch -d a-branch
+# Local, force
+git branch -D a-branch
 
-# Remotamente, en el remoto origin
-git push -d origin nombre-de-la-rama
+# From remote origin
+git push -d origin a-branch
 
-# Remotamente, en el remoto upstream
-git push -d upstream nombre-de-la-rama
+# From remote upstream
+git push -d upstream a-branch
 ```
 
 
 
-## Manipular la historia interactivamente
-
+## 
 
 ```bash
-# ~3 manipular la historia de los ultimos 3 "commits"
+# ~3 manipulate ~3 commits
 git rebase -i HEAD~3
-```
 
-```
 # Commands:
 # p, pick = use commit
 # e, edit = use commit, but stop for amending
@@ -338,93 +288,11 @@ git rebase -i HEAD~3
 # If you remove a line here THAT COMMIT WILL BE LOST.
 ```
 
-(Traducción en la siguiente pagina)
-
-<https://about.gitlab.com/2018/06/07/keeping-git-commit-history-clean/>
-
-## Manipular la historia interactivamente
-
-* Abortar y dejar todo tal como estaba
-
 ```bash
 git rebase --abort
-```
-
-* s: Colapsar dos o mas "commits" contiguos
-
-* e: Editar el mensaje del "commit"
-
-```bash
-git commit --amend -m "Editar mensaje"
+git commit --amend -m "New commit message"
 git rebase --continue
 ```
 
-* Re-ordenar linear para re-ordenar "commits"
-* Borrar una linea para eliminar un "commit" (CUIDADO!)
+<https://about.gitlab.com/2018/06/07/keeping-git-commit-history-clean/>
 
-
-
-# __<http://bit.ly/git-comun>__
-
-### __Preguntas__
-
-__Mauro Lepore__
-
-
-
-# Demostraciones paso a paso
-
-## Camino corto: Auto-bifurcar
-
-_"You're editing a file in a project you don’t have write access to. Submitting a change to this file will write it to a new branch in your fork fgeocomm/fgeo.plot, so you can send a pull request."_
-
-<img src="https://i.imgur.com/Kkll2w8.png" align="center" width=760/>
-
-## Camino corto: Trabajar en un tiquete
-
-<img src="https://i.imgur.com/nMUKXdE.png" align="center" width=760/>
-
-## Camino corto: Solicitar fusión
-
-<img src="https://i.imgur.com/Ed8qevw.png" align="center" width=760/>
-
-
-
-## Camino Largo: Bifurcar
-
-<img src="https://i.imgur.com/GKEbEAi.png" align="center" width=760/>
-
-
-
-## Camino Largo: Clonar (GitHub)
-
-<img src="https://i.imgur.com/A1sXnz8.png" align="center" width=760/>
-
-## Camino Largo: Clonar (RStudio)
-
-<img src="https://i.imgur.com/D5VwX1U.png" align="center" width=760/>
-
-## Camino Largo: Trabajar en un tiquete
-
-<img src="https://i.imgur.com/WF5xwcV.png" align="center" width=760/>
-
-## Camino Largo: Hacer "Push"
-
-<img src="https://i.imgur.com/6gUJuwy.png" align="center" width=760/>
-
-## Camino Largo: Solicitar fusión
-
-<img src="https://i.imgur.com/KEDeIvq.png" align="center" width=760/>
-
-# Notes
-
-### Cache credentials for HTTPS
-
-https://happygitwithr.com/credential-caching.html#credential-caching
-
-Windows
-
-```bash
-git config --show-origin --get credential.helper
-file:C:/Program Files/Git/mingw64/etc/gitconfig manager
-```
