@@ -7,11 +7,17 @@ output: ioslides_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## http://bit.ly/github-demo | GitHub flow + RStudio
+## GitHub flow + RStudio | <http://bit.ly/github-demo>
 
-Mauro Lepore
+Mauro Lepore  
+<https://maurolepore.github.io>
 
-If you are not set up, use https://rstudio.cloud/ or just watch.
+### Set up issues?
+
+* Use https://rstudio.cloud, or
+* just watch and ask at the end.
+
+
 
 # License
 
@@ -25,25 +31,29 @@ https://jennybc.github.io/wtf-2019-rsc/
 
 
 
-## Outline
+## Outline (part 2)
 
 1. [Why Git / GitHub?](https://peerj.com/preprints/3159/)
+
+1. [Why Git**Hub** flow -- not Git flow?](https://githubflow.github.io/)
 
 1. GitHub flow from GitHub:
     * [Contributor issues](https://github.com/maurolepore/github-demo/issues?q=is%3Aopen+is%3Aissue+label%3Acontributor+sort%3Acreated-asc+label%3Aberlin+label%3Agithub-flow_via-github).
     * [Maintainer issues](https://github.com/maurolepore/github-demo/issues?q=is%3Aopen+is%3Aissue+sort%3Acreated-asc+label%3Aberlin+label%3Agithub-flow_via-github+label%3Amaintainer).
-    
+
 1. Recap: [Understanding the GitHub flow](https://guides.github.com/introduction/flow/).
+
+1. Questions
+
+
+
+## Outline (part 2)
 
 1. GitHub flow via RStudio
     * [Fork and clone](https://happygitwithr.com/fork-and-clone.html).
     * [Get upstream changes for a fork](https://happygitwithr.com/upstream-changes.html)
 
 1. Questions / Discussion (e.g. [Git clients](https://github.com/2DegreesInvesting/resources/issues/5)).
-
-Optional readings: 
-
-* [Why Git**Hub** flow -- not Git flow?](https://githubflow.github.io/)
 
 
 
@@ -58,6 +68,14 @@ Optional readings:
 </div>
 
 [Excuse me, do you have a moment to talk about version control?](https://peerj.com/preprints/3159/)
+
+
+
+# End
+
+(Back to [Outline])
+
+Appendix below
 
 
 
@@ -109,7 +127,7 @@ Optional readings:
 
 # Installation
 
-### Ver [Pre-workshop set-up](https://happygitwithr.com/workshops.html#pre-workshop-set-up) (Ingles)
+<https://happygitwithr.com/workshops.html#pre-workshop-set-up>
 
 
 
@@ -153,8 +171,6 @@ git config --global push.default "current"
 git push
 ```
 
-
-
 ## 
 
 <img src="https://i.imgur.com/lXTXDTB.png" align="center" width=760/>
@@ -164,8 +180,6 @@ git add .
 git commit -m "Add full URLs (closes #57)"
 ```
 
-
-
 ## 
 
 <img src="https://i.imgur.com/FLT3de1.png" align="center" width=760/>
@@ -173,8 +187,6 @@ git commit -m "Add full URLs (closes #57)"
 ```bash
 git commit --amend -m "Agregar URLs completos (closes #57)"
 ```
-
-
 
 ## 
 
@@ -184,8 +196,6 @@ git commit --amend -m "Agregar URLs completos (closes #57)"
 git reset --hard
 ```
 
-
-
 ## 
 
 <img src="https://i.imgur.com/5Xs2YEy.png" align="center" width=760/>
@@ -193,8 +203,6 @@ git reset --hard
 ```bash
 git checkout master
 ```
-
-
 
 ## 
 
@@ -219,8 +227,6 @@ git rebase upstream/master
 
 [Alternative](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
 
-
-
 ## 
 
 ```bash
@@ -229,8 +235,6 @@ git rebase upstream/master
 # reset ~n commits
 git reset HEAD~1
 ```
-
-
 
 ## 
 
@@ -243,16 +247,12 @@ git revert HEAD~1 --no-edit
 git revert a867f483 --no-edit
 ```
 
-
-
 ## 
 
 ```bash
 # Cherry pick commit 63da5bb3
 git cherry-pick 63da5bb3
 ```
-
-
 
 ## 
 
@@ -268,8 +268,6 @@ git push -d origin a-branch
 # From remote upstream
 git push -d upstream a-branch
 ```
-
-
 
 ## 
 
