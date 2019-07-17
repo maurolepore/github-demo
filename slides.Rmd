@@ -123,13 +123,9 @@ https://jennybc.github.io/wtf-2019-rsc/
 
 <img src="https://i.imgur.com/OPuzdBA.png" align="center" width=760/>
 
-# Installation
-
-<https://happygitwithr.com/workshops.html#pre-workshop-set-up>
 
 
-
-# Git configuration
+## Git configuration
 
 In R
 
@@ -137,7 +133,7 @@ In R
 usethis::edit_git_config()
 ```
 
-In the terminal
+In the terminal, e.g.:
 
 ```bash
 git config --global -l
@@ -154,9 +150,7 @@ pull.ff=only
 
 
 
-# RStudio & terminal
-
-## 
+## RStudio & terminal
 
 <img src="https://i.imgur.com/spQyR4r.png" align="center" width=760/>
 
@@ -213,9 +207,7 @@ git remote add upstream git@github.com:maurolepore/fgeo.plot.git
 
 
 
-# Terminal
-
-## 
+## Terminal
 
 ```bash
 git fetch upstream
