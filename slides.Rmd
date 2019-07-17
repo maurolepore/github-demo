@@ -60,7 +60,7 @@ Recap
 
 Hands on
 
-* GitHub flow via RStudio:
+* [GitHub flow via RStudio](https://github.com/maurolepore/github-demo/issues?q=is%3Aopen+is%3Aissue+label%3Aberlin+label%3Agithub-flow_via-rstudio+label%3Acontributor):
     * Walk through [Fork and clone](https://happygitwithr.com/fork-and-clone.html).
     * Search "Pull changes from upstream" [here](https://happygitwithr.com/upstream-changes.html). Notice:
     ```bash
