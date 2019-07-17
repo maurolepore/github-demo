@@ -2,7 +2,7 @@ This emails are wrong. Fix your email to practice the [GitHub flow](https://guid
 
 * e mmeline@2degrees-investing.org
 * d aniel@2degrees-investing.org
-* j ackson@2degrees-investing.org
+* jackson@2degrees-investing.org
 * n oemie@2degrees-investing.org
 * a nuschka@2degrees-investing.org
 * f lorence@2degrees-investing.org
