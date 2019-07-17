@@ -66,8 +66,13 @@ https://jennybc.github.io/wtf-2019-rsc/
 ## Outline | Part 2
 
 1. GitHub flow via RStudio:
-    * Happy Git with R: [Fork and clone](https://happygitwithr.com/fork-and-clone.html).
-    * Happy Git with R: [Get upstream changes for a fork](https://happygitwithr.com/upstream-changes.html).
+    * Walk through [Fork and clone](https://happygitwithr.com/fork-and-clone.html).
+    * Search "Pull changes from upstream" [here](https://happygitwithr.com/upstream-changes.html). Notice:
+    ```bash
+    git add remote upstream https://github.com/OWNER/REPO.git
+    git fetch upstream
+    git pull upstream master --ff-only
+    ```
 
 1. Questions / Discussion, e.g.:
     * [Git clients](https://github.com/2DegreesInvesting/resources/issues/5).
