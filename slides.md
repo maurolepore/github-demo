@@ -37,9 +37,6 @@ Optional readings:
 
 * [Why Git**Hub** flow -- not Git flow?](https://githubflow.github.io/)
 
-
-
-
 ## Why Git/GitHub? | (Back to [Outline])
 
 <div class="columns-2">
@@ -47,6 +44,13 @@ Optional readings:
 
 <img src="https://i.imgur.com/uORi6QZ.png" align="center" width=325/>
 </div>
+
+[Excuse me, do you have a moment to talk about version control?](https://peerj.com/preprints/3159/)
+
+
+
+
+
 
 
 
