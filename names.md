@@ -31,5 +31,5 @@ This emails are wrong. Fix your email to practice the [GitHub flow](https://guid
 * s imon@2degrees-investing.org
 * p ranav@2degrees-investing.org
 * m artin@2degrees-investing.org
-* c onstanze@2degrees-investing.org
+* constanze@2degrees-investing.org
 * m ariana@2degrees-investing.org 
