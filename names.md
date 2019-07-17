@@ -1,6 +1,6 @@
 This emails are wrong. Fix your email to practice the [GitHub flow](https://guides.github.com/introduction/flow/):
 
-* mauro@2degrees-investing.org
+* __mauro@2degrees-investing.org__
 * e mmeline@2degrees-investing.org
 * d aniel@2degrees-investing.org
 * j ackson@2degrees-investing.org
