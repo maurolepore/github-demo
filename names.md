@@ -16,7 +16,7 @@ This emails are wrong. Fix your email to practice the [GitHub flow](https://guid
 * m ichael@2degrees-investing.org
 * d aan@2degrees-investing.org
 * k elley@2degrees-investing.org
-* c lare@2degrees-investing.org
+* clare@2degrees-investing.org
 * d iana@2degrees-investing.org
 * e van@2degrees-investing.org
 * f rederique@2degrees-investing.org
