@@ -9,8 +9,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## GitHub flow + RStudio | <http://bit.ly/github-demo>
 
-Mauro Lepore  
-<https://maurolepore.github.io>
+Mauro Lepore
+
+--
 
 ### Set up issues?
 
@@ -31,7 +32,7 @@ https://jennybc.github.io/wtf-2019-rsc/
 
 
 
-## Outline (part 2)
+## Outline {#outline} 
 
 1. [Why Git / GitHub?](https://peerj.com/preprints/3159/)
 
@@ -47,19 +48,21 @@ https://jennybc.github.io/wtf-2019-rsc/
 
 
 
-## Outline (part 2)
+## Outline 2
 
-1. GitHub flow via RStudio
-    * [Fork and clone](https://happygitwithr.com/fork-and-clone.html).
-    * [Get upstream changes for a fork](https://happygitwithr.com/upstream-changes.html)
+1. GitHub flow via RStudio:
+    * Happy Git with R: [Fork and clone](https://happygitwithr.com/fork-and-clone.html).
+    * Happy Git with R: [Get upstream changes for a fork](https://happygitwithr.com/upstream-changes.html).
 
-1. Questions / Discussion (e.g. [Git clients](https://github.com/2DegreesInvesting/resources/issues/5)).
+1. Questions / Discussion, e.g.:
+    * [Git clients](https://github.com/2DegreesInvesting/resources/issues/5).
+    * usethis package: [Pull request helpers](https://usethis.r-lib.org/articles/articles/pr-functions.html).
 
 
 
 ## Why Git/GitHub?
 
-(Back to [Outline])
+(Back to [outline](#outline))
 
 <div class="columns-2">
 <img src="https://i.imgur.com/MBv5IJQ.jpg" align="center" width=325/>
@@ -73,7 +76,7 @@ https://jennybc.github.io/wtf-2019-rsc/
 
 # End
 
-(Back to [Outline])
+(Back to [outline](#outline))
 
 Appendix below
 
