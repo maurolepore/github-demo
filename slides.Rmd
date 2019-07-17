@@ -37,19 +37,30 @@ https://jennybc.github.io/wtf-2019-rsc/
 
 
 
-## Outline | Part 1
+## Outline, part 1/2
 
-1. GitHub flow from GitHub:
+Intro
+
+* [Why Git/GitHub?](https://peerj.com/preprints/3159/)
+* [Why Git**Hub** flow -- not Git flow?](https://githubflow.github.io/)
+* Should I use a Git client?
+
+Hands on
+
+* GitHub flow from GitHub:
     * [Contributor issues](https://github.com/maurolepore/github-demo/issues?q=is%3Aopen+is%3Aissue+label%3Acontributor+sort%3Acreated-asc+label%3Aberlin+label%3Agithub-flow_via-github).
     * [Maintainer issues](https://github.com/maurolepore/github-demo/issues?q=is%3Aopen+is%3Aissue+sort%3Acreated-asc+label%3Aberlin+label%3Agithub-flow_via-github+label%3Amaintainer).
 
-1. Recap: [Understanding the GitHub flow](https://guides.github.com/introduction/flow/).
+Recap
 
-1. Questions?
+[Understanding the GitHub flow](https://guides.github.com/introduction/flow/).
 
-## Outline | Part 2
 
-1. GitHub flow via RStudio:
+## Outline, part 2/2
+
+Hands on
+
+* GitHub flow via RStudio:
     * Walk through [Fork and clone](https://happygitwithr.com/fork-and-clone.html).
     * Search "Pull changes from upstream" [here](https://happygitwithr.com/upstream-changes.html). Notice:
     ```bash
@@ -58,27 +69,18 @@ https://jennybc.github.io/wtf-2019-rsc/
     git pull upstream master --ff-only
     ```
 
+
+
 ## Questions / Discussion
 
 Ideas:
 
-* [Why Git/GitHub?](https://peerj.com/preprints/3159/)
-
-* [Why Git**Hub** flow -- not Git flow?](https://githubflow.github.io/)
-
-* Alternative tools:
-
-    * [Git clients](https://github.com/2DegreesInvesting/resources/issues/5).
-    * usethis package: [Pull request helpers](https://usethis.r-lib.org/articles/articles/pr-functions.html).
-
-
-
+* [Git clients](https://github.com/2DegreesInvesting/resources/issues/5).
+* usethis package: [Pull request helpers](https://usethis.r-lib.org/articles/articles/pr-functions.html).
 
 
 
 # Appendix
-
-
 
 ## What is a commit?
 
