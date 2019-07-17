@@ -37,21 +37,7 @@ https://jennybc.github.io/wtf-2019-rsc/
 
 
 
-## Why Git/GitHub?
-
-<div class="columns-2">
-<img src="https://i.imgur.com/MBv5IJQ.jpg" align="center" width=325/>
-
-<img src="https://i.imgur.com/uORi6QZ.png" align="center" width=325/>
-</div>
-
-[Excuse me, do you have a moment to talk about version control?](https://peerj.com/preprints/3159/)
-
-
-
 ## Outline | Part 1
-
-1. [Why Git**Hub** flow -- not Git flow?](https://githubflow.github.io/)
 
 1. GitHub flow from GitHub:
     * [Contributor issues](https://github.com/maurolepore/github-demo/issues?q=is%3Aopen+is%3Aissue+label%3Acontributor+sort%3Acreated-asc+label%3Aberlin+label%3Agithub-flow_via-github).
@@ -59,9 +45,7 @@ https://jennybc.github.io/wtf-2019-rsc/
 
 1. Recap: [Understanding the GitHub flow](https://guides.github.com/introduction/flow/).
 
-1. Questions
-
-
+1. Questions?
 
 ## Outline | Part 2
 
@@ -74,9 +58,21 @@ https://jennybc.github.io/wtf-2019-rsc/
     git pull upstream master --ff-only
     ```
 
-1. Questions / Discussion, e.g.:
+## Questions / Discussion
+
+Ideas:
+
+* [Why Git/GitHub?](https://peerj.com/preprints/3159/)
+
+* [Why Git**Hub** flow -- not Git flow?](https://githubflow.github.io/)
+
+* Alternative tools:
+
     * [Git clients](https://github.com/2DegreesInvesting/resources/issues/5).
     * usethis package: [Pull request helpers](https://usethis.r-lib.org/articles/articles/pr-functions.html).
+
+
+
 
 
 
